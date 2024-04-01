@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCBI Purchase Order Request</title>
+    <link rel="shortcut icon" href="https://archicgi.com/wp-content/uploads/2017/09/cropped-favicon.png"
+        type="image/x-icon">
+</head>
+<style>
+    /*id*/
+    body {
+        background-color: rgb(30, 30, 134);
+        align-items: center;
+        width: 100%;
+    }
+
+    #header {
+        background-color: #3c00a0;
+        margin: 40px;
+        margin-top: 40px;
+        padding: 30px;
+        color: white;
+    }
+
+    #form {
+        background-color: rgba(255, 255, 255, 0.904);
+        width: 90%;
+        padding: 1px 0px;
+        margin: auto;
+        align-items: center;
+        /* display: flex; */
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="date"],
+    select {
+        width: 100%;
+        height: 30px;
+        border: 1px solid gray;
+    }
+
+    #submit_button {
+        background-color: #3c00a0;
+        background-color: #3c00a0;
+        color: #FFFFFF;
+        width: 100%;
+        height: 35px;
+        border: 1px solid;
+        border-radius: 6px;
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    #parent_div {
+        padding: 10px 65px;
+    }
+
+    .sup {
+        color: red;
+    }
+</style>
+
+<body>
+    <form action="" id="form">
+        <div>
+            <header>
+                <div id="header"><img
+                        src="https://bazookacandybrandsinternational.com/wp-content/uploads/2021/06/logo2x.png"
+                        alt="image" height="50" style="background-color: white;"><br>
+                    <h2>BCBI Purchase Order Request (POR) Form</h2>
+                    <p>Please input all PO details and BCBI Finance team will respond via email with a PO number within
+                        48hours</p>
+                </div>
+            </header>
+            <div id="parent_div">
+                <div>
+                    <p>Hi, Verify. When you submit this form, the owner will see your name and email address</p>
+                    <p>* Required</p>
+
+                </div>
+
+                <div>
+                    <label for="1">1. PO Reference (If requesting request for marketing spend, please use REF number
+                        from
+                        Spend
+                        Tracker) <span class="sup">*</span></label><br><br>
+                    <input type="text" name="" placeholder="Enter Your Answer" id="1" width="20">
+                </div><br>
+
+                <div>
+                    <label for="supplier name">2. Supplier Name <span class="sup">*</span> </label><br> <br>
+                    <select name="" id="supplier name">
+                        <option value="">Nothing Selected</option>
+                        <option value="Others">Others</option>
+                        <option value="Tax Agency NY">Tax Agency NY</option>
+                        <option value="MAR TEST VENDOOR DELETION">MAR TEST VENDOOR DELETION</option>
+                        <option value="HM Revenue & Customs">HM Revenue & Customs</option>
+                    </select><br><br>
+                </div>
+                <div>
+                    <label for="payment currency">3.Payment Currency <span class="sup">*</span></label><br><br>
+                    <select name="" id="payment currency">
+                        <option value="">Nothing Selected</option>
+                        <option value="USD">USD</option>
+                        <option value="STG">STG</option>
+                        <option value="CAD">CAD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="CNY">CNY</option>
+                        <option value="JPY">JPY</option>
+                        <option value="THB">THB</option>
+                        <option value="DKR">DKR</option>
+                        <option value="AED">AED</option>
+                        <option value="TRY">TRY</option>
+                        <option value="HUF">HUF</option>
+                        <option value="RON">RON</option>
+                        <option value="KWD">KWD</option>
+                    </select><br><br>
+                </div>
+                <div>
+                    <label for="PO Value">4. PO Value (In Payment Currency) <span class="sup">*</span></label><br><br>
+                    <input type="number" name="" id="PO Value" placeholder="Enter the Amount"><br><br>
+                </div>
+                <div>
+                    <label for="Description of Activity">5. Description of Activity <span class="sup">*</span> </label>
+                    <br><br>
+                    <input type="text" name="" id="Description of Activity"
+                        placeholder="Enter the Description of Activity"><br><br>
+                </div>
+                <div>
+                    <label for="Activity Type">6. Activity Type <span class="sup">*</span></label><br><br>
+                    <select name="" id="Activity Type">
+                        <option value="">Nothing Selected</option>
+                        <option value="Listing">Listing</option>
+                        <option value="ORD">ORD</option>
+                        <option value="Packaging">Packaging</option>
+                        <option value="Quality Testing">Quality Testing</option>
+                        <option value="Traslation">Traslation</option>
+                        <option value="TV">TV</option>
+                        <option value="Trade Magazine">Trade Magazine</option>
+                        <option value="Youtube">Youtube</option>
+                        <option value="Rights">Rights</option>
+                        <option value="Production Costs-Print">Production Costs-Print</option>
+                        <option value="Web management">Web management</option>
+                        <option value="Consumer Promotion">Consumer Promotion</option>
+                        <option value="Market Research - e.g. Consumer Research">Market Research - e.g. Consumer
+                            Research
+                        </option>
+                        <option value="Agency Fee/Retainer (Excl Sales)">Agency Fee/Retainer (Excl Sales)</option>
+                        <option value="EPOS Data">EPOS Data</option>
+                        <option value="POS - Development/Prototype">POS - Development/Prototype</option>
+                        <option value="Trade & Consumer Events e.g. Unitas Tradeshow">Trade & Consumer Events e.g.
+                            Unitas
+                            Tradeshow</option>
+                        <option value="Trade Samples">Trade Samples</option>
+                        <option value="Telesales">Telesales</option>
+                        <option value="Market Research - e.g.Retail Audits">Market Research - e.g.Retail Audits</option>
+                        <option value="Consumer Samples">Consumer Samples</option>
+                    </select><br><br>
+                </div>
+                <div>
+                    <label for="Brand">7. Brand <span class="sup">*</span></label><br><br>
+                    <select name="" id="Brand">
+                        <option value="">Nothing Selected</option>
+                        <option value="Bazooka Gum">Bazooka Gum</option>
+                        <option value="Bazooka MixUpz">Bazooka MixUpz</option>
+                        <option value="Big Bottle Pop">Big Bottle Pop</option>
+                        <option value="Other">Other</option>
+                        <option value="Flip Pop">Flip Pop</option>
+                        <option value="Juicy Drop Pop Xtreme">Juicy Drop Pop Xtreme</option>
+                        <option value="Juicy Drop Chews">Juicy Drop Chews</option>
+                        <option value="Juicy Drop Gummy Dipperz">Juicy Drop Gummy Dipperz</option>
+                        <option value="Mega Mouth">Mega Mouth</option>
+                        <option value="Triple Power">Triple Power</option>
+                        <option value="Push Pop Gummies">Push Pop Gummies</option>
+                        <option value="Ring Pop">Ring Pop</option>
+                        <option value="Rattlerz">Rattlerz</option>
+                        <option value="Juicy Drop Blasts">Juicy Drop Blasts</option>
+                        <option value="Bazooka Chew">Bazooka Chew</option>
+                    </select><br><br>
+                </div>
+                <div>
+                    <label for="Country">8. Country <span class="sup">*</span></label><br><br>
+                    <select name="" id="Country">
+                        <option value="">Nothing Selected</option>
+                        <option value="United Arab Emirates">United Arab Emirates</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Asia (Other)">Asia (Other)</option>
+                        <option value="Austria">Austria</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Belgium">Belgium</option>
+                        <option value="Bulgaria">Bulgaria</option>
+                        <option value="Brunei">Brunei</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Switzerland">Switzerland</option>
+                        <option value="Channel Islands">Channel Islands</option>
+                        <option value="Chile">Chile</option>
+                    </select><br><br>
+                </div>
+                <div>
+                    <label for="Activity Start Date">9. Activity Start Date <span class="sup">*</span></label><br><br>
+                    <input type="date" name="" id="Activity Start Date" placeholder="Select Date"><br><br>
+                </div>
+                <div>
+                    <label for="Activity End Date ">10. Activity End Date <span class="sup">*</span> </label><br><br>
+                    <input type="date" name="" id="Activity End Date " placeholder="Select Date"><br><br>
+                </div>
+                <div>
+                    <label for="Stakeholders in Request">11. Stakeholders in Request <span
+                            class="sup">*</span></label><br><br>
+                    <select name="" id="Stakeholders in Request">
+                        <option value="">Nothing Selected</option>
+                        <option value="Abhisek Nayak">Abhisek Nayak</option>
+                        <option value="Adam Gosling">Adam Gosling</option>
+                        <option value="Aditya Santhanam">Aditya Santhanam/option>
+                        <option value="aditya@entrans.io">aditya@entrans.io</option>
+                        <option value="Alison O'Dowd">Alison O'Dowd</option>
+                        <option value="Ambreen Naeem">Ambreen Naeem</option>
+                        <option value="Amelia Fever">Amelia Fever</option>
+                        <option value="Anthony Serrano">Anthony Serrano</option>
+                        <option value="Antonios Psathas">Antonios Psathas</option>
+                        <option value="Arnaud  Lafontaine">Arnaud Lafontaine</option>
+                        <option value="Ashley Eva">Ashley Eva</option>
+                        <option value="Audrey Xu">Audrey Xu</option>
+                        <option value="Aura Topala">Aura Topala</option>
+                    </select><br><br>
+                </div>
+                <div>
+                    <label for="Requestor Name">12. Requestor Name <span class="sup">*</span></label><br><br>
+                    <input type="text" name="" id="Requestor Name"><br><br>
+                </div>
+                <div>
+                    <label for="email">13. Requestor Email <span class="sup">*</span></label><br><br>
+                    <input type="email" name="" id="email">
+                </div><br><br>
+                <div>
+                    <button type="submit" id="submit_button">Submit</button>
+                </div>
+            </div>
+    </form>
+    </div>
+</body>
+
+</html>
